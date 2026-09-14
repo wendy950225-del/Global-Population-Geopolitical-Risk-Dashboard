@@ -3,8 +3,9 @@ async function loadPopulationData() {
   try {
 
     const response = await fetch(
-      "./data/cleaned.json"
-    );
+  "./data/cleaned.json?v=20260914",
+  { cache: "no-store" }
+);
 
     if (!response.ok) {
       throw new Error(
