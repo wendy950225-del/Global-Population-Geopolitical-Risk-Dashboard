@@ -1,0 +1,45 @@
+{
+  "source": "UN World Population Prospects 2024",
+  "scenario": "Medium projection",
+  "unit": "million people",
+  "records": [
+    {
+      "year": 2024,
+      "population_millions": 8162.0
+    },
+    {
+      "year": 2030,
+      "population_millions": 8569.0
+    },
+    {
+      "year": 2050,
+      "population_millions": 9664.0
+    },
+    {
+      "year": 2100,
+      "population_millions": 10180.0
+    }
+  ],
+  "summary": {
+    "average_population_millions": 9143.75,
+    "growth_rate_2024_2100_percent": 24.72,
+    "cagr_2024_2100_percent": 0.291
+  },
+  "interval_growth": [
+    {
+      "from": 2024,
+      "to": 2030,
+      "growth_percent": 4.99
+    },
+    {
+      "from": 2030,
+      "to": 2050,
+      "growth_percent": 12.78
+    },
+    {
+      "from": 2050,
+      "to": 2100,
+      "growth_percent": 5.34
+    }
+  ]
+}
