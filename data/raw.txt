@@ -1,0 +1,12 @@
+# Global population data
+# UN World Population Prospects 2024
+# Medium projection scenario
+# Unit: million people
+
+year,population_millions
+2024,8162
+2030,8569
+2050,9664
+2100,10180
+
+Source: United Nations, World Population Prospects 2024
