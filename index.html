@@ -1,0 +1,371 @@
+<!DOCTYPE html>
+<html lang="zh-Hant">
+
+<head>
+  <meta charset="UTF-8">
+
+  <meta
+    name="viewport"
+    content="width=device-width, initial-scale=1.0"
+  >
+
+  <meta
+    name="description"
+    content="Global Population and Geopolitical Risk Dashboard"
+  >
+
+  <title>
+    Global Population & Geopolitical Risk Dashboard
+  </title>
+
+  <link
+    rel="stylesheet"
+    href="style.css"
+  >
+
+  <script
+    src="app.js"
+    defer
+  ></script>
+</head>
+
+
+<body>
+
+<header class="hero">
+
+  <nav class="nav">
+    <strong>AI Applications Project</strong>
+
+    <div>
+      <a href="#population">Population</a>
+      <a href="#iran">Iran Risk</a>
+      <a href="#method">Method</a>
+    </div>
+  </nav>
+
+
+  <div class="hero-content">
+
+    <p class="tag">
+      FinTech / AI Applications
+    </p>
+
+    <h1>
+      Global Population &
+      Geopolitical Risk Dashboard
+    </h1>
+
+    <p class="claim">
+      全球人口仍將持續成長，但人口結構、
+      能源供應與中東地緣政治風險，
+      將共同影響未來全球經濟與政策規劃。
+    </p>
+
+    <p class="author">
+      Author：請改成你的姓名
+    </p>
+
+  </div>
+
+</header>
+
+
+<main>
+
+<section
+  id="population"
+  class="section"
+>
+
+  <p class="eyebrow">
+    GLOBAL POPULATION
+  </p>
+
+  <h2>
+    世界人口預測
+  </h2>
+
+  <p>
+    根據 UN World Population Prospects 2024
+    中位推估情境。
+  </p>
+
+
+  <div class="stat-grid">
+
+    <article class="stat-card">
+      <span>2024</span>
+      <strong id="pop2024">--</strong>
+      <small>billion</small>
+    </article>
+
+    <article class="stat-card">
+      <span>2030</span>
+      <strong id="pop2030">--</strong>
+      <small>billion</small>
+    </article>
+
+    <article class="stat-card">
+      <span>2050</span>
+      <strong id="pop2050">--</strong>
+      <small>billion</small>
+    </article>
+
+    <article class="stat-card">
+      <span>2100</span>
+      <strong id="pop2100">--</strong>
+      <small>billion</small>
+    </article>
+
+  </div>
+
+
+  <div class="chart-card">
+
+    <h3>
+      Population Projection
+    </h3>
+
+    <div
+      id="populationChart"
+      class="chart"
+    ></div>
+
+  </div>
+
+
+  <div class="summary-grid">
+
+    <article>
+      <span>Selected-year average</span>
+      <strong id="average">--</strong>
+    </article>
+
+    <article>
+      <span>2024–2100 Growth</span>
+      <strong id="growth">--</strong>
+    </article>
+
+    <article>
+      <span>CAGR</span>
+      <strong id="cagr">--</strong>
+    </article>
+
+  </div>
+
+
+  <p class="source">
+    Source: United Nations,
+    World Population Prospects 2024.
+    Data processed with Python.
+  </p>
+
+</section>
+
+
+
+<section
+  id="iran"
+  class="section dark-section"
+>
+
+  <p class="eyebrow">
+    GEOPOLITICAL RISK
+  </p>
+
+  <h2>
+    Iran Risk Matrix
+  </h2>
+
+  <p>
+    下列機率與影響程度為分析判斷，
+    並非原始資料本身。
+  </p>
+
+
+  <div class="table-wrapper">
+
+    <table>
+
+      <thead>
+        <tr>
+          <th>風險因子</th>
+          <th>機率</th>
+          <th>影響程度</th>
+          <th>資料來源</th>
+        </tr>
+      </thead>
+
+      <tbody>
+
+        <tr>
+          <td>核問題與國際核查風險</td>
+          <td><span class="risk high">高</span></td>
+          <td>高</td>
+          <td>IAEA / Reuters</td>
+        </tr>
+
+        <tr>
+          <td>荷姆茲海峽航運與能源中斷</td>
+          <td><span class="risk high">高</span></td>
+          <td>高</td>
+          <td>U.S. EIA</td>
+        </tr>
+
+        <tr>
+          <td>制裁與經濟壓力</td>
+          <td><span class="risk high">高</span></td>
+          <td>中高</td>
+          <td>Reuters</td>
+        </tr>
+
+        <tr>
+          <td>區域代理勢力與衝突擴散</td>
+          <td><span class="risk medium">中</span></td>
+          <td>高</td>
+          <td>Reuters</td>
+        </tr>
+
+      </tbody>
+
+    </table>
+
+  </div>
+
+
+  <div class="fact-grid">
+
+    <article>
+
+      <h3>事實資料 Fact</h3>
+
+      <p>
+        EIA 資料顯示，
+        荷姆茲海峽是全球最重要的能源運輸瓶頸之一。
+        IAEA 的核查資料則持續指出，
+        伊朗核計畫的透明度與驗證問題受到國際關注。
+      </p>
+
+    </article>
+
+
+    <article>
+
+      <h3>分析推論 Inference</h3>
+
+      <p>
+        若能源航運持續受到干擾，
+        油價、運輸成本與通膨壓力可能升高。
+        核問題與區域衝突若惡化，
+        也可能增加金融市場與全球供應鏈的不確定性。
+      </p>
+
+    </article>
+
+  </div>
+
+
+  <p class="source">
+    Risk level is an analytical judgement,
+    not a probability published by the source.
+    Accessed: 2026-09-14.
+  </p>
+
+</section>
+
+
+
+<section
+  id="method"
+  class="section"
+>
+
+  <p class="eyebrow">
+    METHODOLOGY
+  </p>
+
+  <h2>
+    AI 使用與資料驗證方法
+  </h2>
+
+
+  <div class="method-grid">
+
+    <article>
+
+      <h3>AI 如何使用</h3>
+
+      <p>
+        使用 AI 協助建立研究架構、
+        Python 程式、RWD 網站、
+        資料摘要、風險因子分類以及文字校正。
+      </p>
+
+    </article>
+
+
+    <article>
+
+      <h3>如何驗證</h3>
+
+      <p>
+        人口資料以 UN World Population Prospects
+        2024 為主要依據，並與 Our World in Data
+        交叉確認。地緣政治資料優先採用
+        IAEA、EIA 等第一手機構資料，
+        並搭配 Reuters 查證近期事件。
+      </p>
+
+    </article>
+
+
+    <article>
+
+      <h3>避免 AI 幻覺</h3>
+
+      <p>
+        所有重要數字都必須能追溯到來源；
+        將「已知事實」和「分析推論」分開；
+        對有爭議的政治事件避免只採用單一來源。
+      </p>
+
+    </article>
+
+
+    <article>
+
+      <h3>AI 數字不一致怎麼辦？</h3>
+
+      <p>
+        AI 可能引用不同年份的 UN 人口預測版本。
+        本研究固定採用最新一致版本
+        World Population Prospects 2024，
+        避免混合不同資料版本。
+      </p>
+
+    </article>
+
+  </div>
+
+</section>
+
+</main>
+
+
+<footer>
+
+  <p>
+    Global Population &
+    Geopolitical Risk Dashboard
+  </p>
+
+  <p>
+    AI-assisted academic project
+  </p>
+
+</footer>
+
+
+</body>
+</html>
